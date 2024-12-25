@@ -1,0 +1,22 @@
+.AppBar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    direction: row;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.AppBarIcon{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.AppBarHeading{
+    width: calc(100% - 120px);
+    margin: auto;
+    text-align: center;
+    font-size: 26px;
+    color: #484848;
+    font-family: Arial, sans-serif;
+}

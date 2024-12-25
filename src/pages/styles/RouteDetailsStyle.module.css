@@ -1,0 +1,116 @@
+.body{
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 100dvh;
+}
+
+.contentContainer{
+    height: calc(100dvh - 50px - 40px);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mapContainer{
+    width: 60%;
+    margin: auto;
+    height: calc(100dvh - 50px);
+}
+
+.rightSection{
+    width: 40%;
+    margin: auto;
+    height: calc(100dvh - 50px);
+}
+
+.stopListOrTimetableContainer{
+    width: 100%;
+    height: calc(100dvh - 40px - 50px);
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.tabContainer{
+    height: 39px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    line-height: 39px;
+    text-align: center;
+    border-top: 1px solid #e2e2e2;
+}
+
+.tabItemActive{
+    height: 39px;
+    width: 50%;
+    color: #484848;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tabItemNonActive{
+    height: 39px;
+    width: 50%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) { 
+    .body{
+        width: 100%;
+    }
+
+    .contentContainer{
+        height: calc(100dvh - 50px - 40px);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapContainer{
+        width: 100%;
+        margin: auto;
+        height: var(--cusHeight);
+    }
+
+    .rightSection{
+        width: 100%;
+        margin: auto;
+        height: var(--cusHeight);
+    }
+    
+    .stopListOrTimetableContainer{
+        width: 100%;
+        margin: auto;
+        height: 100%;
+    }
+    
+    .tabContainer{
+        height: 39px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        line-height: 39px;
+        text-align: center;
+        border-top: 1px solid #e2e2e2;
+    }
+    
+    .tabItemActive{
+        height: 39px;
+        width: 50%;
+        color: #484848;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    .tabItemNonActive{
+        height: 39px;
+        width: 50%;
+    }
+    
+}

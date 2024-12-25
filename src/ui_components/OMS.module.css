@@ -1,0 +1,14 @@
+.btnEnlargeMap{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    right: 10px;
+    bottom: 20px;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .btnEnlargeMap{
+        display: inline;
+    }
+}

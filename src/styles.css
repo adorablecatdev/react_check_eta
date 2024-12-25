@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-danger {
+    background-color: #f9c5ce;
+    color: #484848;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    --bs-btn-hover-color: #484848;
+    --bs-btn-hover-bg: #f9c5ce;
+    --bs-btn-hover-border-color: #e2e2e2;
+	--bs-btn-active-bg: #f9d5db;
+	--bs-btn-active-border-color: #e2e2e2;
+    --bs-btn-active-color: #484848;
+}
+
+.btn-light {
+    background-color: #fbfbfb;
+    color: #484848;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    --bs-btn-hover-color: #484848;
+    --bs-btn-hover-bg: #fbfbfb;
+    --bs-btn-hover-border-color: #e2e2e2;
+	--bs-btn-active-bg: #d8ffd6;
+	--bs-btn-active-border-color: #d8ffd6;
+    --bs-btn-active-color: #e2e2e2;
+}
+
+.btn-primary {
+    background-color: #D2F9FD;
+    color: #484848;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    --bs-btn-hover-color: #484848;
+    --bs-btn-hover-bg: #D2F9FD;
+    --bs-btn-hover-border-color: #e2e2e2;
+	--bs-btn-active-bg: #E9FBFE;
+	--bs-btn-active-border-color: #e2e2e2;
+    --bs-btn-active-color: #484848;
+}
+
+.btn-success {
+    background-color: #bdffb9;
+    color: #484848;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    --bs-btn-hover-color: #484848;
+    --bs-btn-hover-bg: #bdffb9;
+    --bs-btn-hover-border-color: #e2e2e2;
+	--bs-btn-active-bg: #d8ffd6;
+	--bs-btn-active-border-color: #e2e2e2;
+    --bs-btn-active-color: #484848;
+}
+
+.btn-warning {
+    background-color: #fff8a9;
+    color: #484848;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    --bs-btn-hover-color: #484848;
+    --bs-btn-hover-bg: #fff8a9;
+    --bs-btn-hover-border-color: #e2e2e2;
+	--bs-btn-active-bg: #fffac2;
+	--bs-btn-active-border-color: #e2e2e2;
+    --bs-btn-active-color: #484848;
+}
+
+.accordion-button {
+    background-color: #fafafa;
+    color: #484848;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d6ecfb;
+    color: #484848;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-padding-x: 0rem;
+    --bs-btn-padding-y: 0rem;
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: #bdffb9 !important;
+}
